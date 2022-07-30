@@ -17,11 +17,11 @@ def getPares(lista):
 
 
 if __name__ == "__main__":
-    # 1.1.a Obtener el mayor de la lista utilizando la función getMayor
+    # 1.1.a Obtener el mayor de la lista utilizando una función propia
     numeroMayor = getMayor(NUMEROS)
     print(f"El numero mayor es {numeroMayor[0]} y esta en la posicion {numeroMayor[1]}")
 
-    # 1.1.b Obtener el mayor utilizando la funcion max
+    # 1.1.b Obtener el mayor de la lista utilizando una función de Python
     print(f"El numero mayor es {max(NUMEROS)} y esta en la posicion {NUMEROS.index(max(NUMEROS))}")
 
     # 1.2 Ordernar la lista
